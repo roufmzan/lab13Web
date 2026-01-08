@@ -1,0 +1,45 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, Helvetica, sans-serif; background:#f5f6f8; margin:0; }
+.container { max-width: 980px; margin: 24px auto; background: #fff; border:1px solid #e5e7eb; box-shadow: 0 2px 6px rgba(0,0,0,.05); }
+.container > h1 { margin:0; padding:24px; color:#5a738e; }
+.topnav { background:#2b6aa6; padding: 0 16px; }
+.topnav a { color:#e8f1fa; text-decoration:none; padding:12px 16px; display:inline-block; }
+.topnav a.active { background:#1f5a93; }
+.content { padding: 18px 24px 32px 24px; }
+.btn { display:inline-block; background:#428bca; color:#fff; padding:10px 14px; border-radius:6px; text-decoration:none; }
+.btn.gray { background:#ddd; color:#333; }
+.btn.danger { background:#d9534f; }
+.form-row { margin:12px 0; }
+label { margin-right:8px; }
+input[type="text"] { padding:8px 10px; border:1px solid #cbd5e1; border-radius:4px; }
+.table { width:100%; border-collapse: collapse; margin-top: 12px; }
+.table th, .table td { border:1px solid #e5e7eb; padding:10px; text-align:left; }
+.table th { background:#f0f4f8; }
+.table img { width:48px; height:48px; object-fit:cover; border-radius:4px; }
+.footer { background:#111; color:#fff; padding:16px 24px; }
+
+/* Pagination styles from brief */
+ul.pagination {
+  display: inline-block;
+  padding: 0;
+  margin: 12px 0 0 0;
+}
+ul.pagination li { display: inline; }
+ul.pagination li a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 2px;
+  border-radius:6px;
+}
+ul.pagination li a.active {
+  background-color: #428bca;
+  color: white;
+  border: 1px solid #428bca;
+}
+ul.pagination li a:hover:not(.active) {
+  background-color: #ddd;
+}
